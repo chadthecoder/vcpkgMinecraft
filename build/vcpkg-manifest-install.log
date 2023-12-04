@@ -1,0 +1,47 @@
+Detecting compiler hash for triplet x64-linux...
+The following packages will be built and installed:
+  * egl-registry:x64-linux -> 2022-09-20
+    fmt:x64-linux -> 10.1.1
+    glad[core,loader]:x64-linux -> 0.1.36
+    glfw3:x64-linux -> 3.3.8#3
+  * opengl-registry:x64-linux -> 2022-09-29#1
+  * vcpkg-cmake:x64-linux -> 2023-05-04
+  * vcpkg-cmake-config:x64-linux -> 2022-02-06#1
+Additional packages (*) will be modified to complete this operation.
+Restored 7 package(s) from /home/chadthecoder/.cache/vcpkg/archives in 45.3 ms. Use --debug to see more details.
+Installing 1/7 vcpkg-cmake-config:x64-linux...
+Elapsed time to handle vcpkg-cmake-config:x64-linux: 418 us
+Installing 2/7 vcpkg-cmake:x64-linux...
+Elapsed time to handle vcpkg-cmake:x64-linux: 311 us
+Installing 3/7 fmt:x64-linux...
+Elapsed time to handle fmt:x64-linux: 787 us
+Installing 4/7 egl-registry:x64-linux...
+Elapsed time to handle egl-registry:x64-linux: 473 us
+Installing 5/7 opengl-registry:x64-linux...
+Elapsed time to handle opengl-registry:x64-linux: 1.13 ms
+Installing 6/7 glad:x64-linux...
+Elapsed time to handle glad:x64-linux: 618 us
+Installing 7/7 glfw3:x64-linux...
+Elapsed time to handle glfw3:x64-linux: 618 us
+Total install time: 4.4 ms
+The package fmt provides CMake targets:
+
+    find_package(fmt CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE fmt::fmt)
+
+    # Or use the header-only version
+    find_package(fmt CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE fmt::fmt-header-only)
+
+glad provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(glad CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE glad::glad)
+
+glfw3 provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(glfw3 CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE glfw)
+

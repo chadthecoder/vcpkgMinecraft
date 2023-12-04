@@ -1,0 +1,3 @@
+/home/chadthecoder/Code/vcpkgLinuxTemplate/build/CMakeFiles/edit_cache.dir
+/home/chadthecoder/Code/vcpkgLinuxTemplate/build/CMakeFiles/rebuild_cache.dir
+/home/chadthecoder/Code/vcpkgLinuxTemplate/build/CMakeFiles/HelloWorld.dir
