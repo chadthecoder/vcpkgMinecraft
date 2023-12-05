@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/chadthecoder/Code/vcpkgLinuxTemplate/src/main.cpp" "/home/chadthecoder/Code/vcpkgLinuxTemplate/build/CMakeFiles/HelloWorld.dir/src/main.cpp.o"
+  "/home/chadthecoder/Code/vcpkgMinecraft/src/main.cpp" "/home/chadthecoder/Code/vcpkgMinecraft/build/CMakeFiles/HelloWorld.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

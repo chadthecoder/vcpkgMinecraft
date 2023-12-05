@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/chadthecoder/Code/vcpkgLinuxTemplate/src/main.cpp
+/home/chadthecoder/Code/vcpkgMinecraft/src/main.cpp
 glad/glad.h
 -
 GLFW/glfw3.h

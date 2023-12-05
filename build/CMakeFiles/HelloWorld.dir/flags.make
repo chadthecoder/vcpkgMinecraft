@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /home/chadthecoder/Code/vcpkgLinuxTemplate/build/vcpkg_installed/x64-linux/include 
+CXX_INCLUDES = -isystem /home/chadthecoder/Code/vcpkgMinecraft/build/vcpkg_installed/x64-linux/include 
 
