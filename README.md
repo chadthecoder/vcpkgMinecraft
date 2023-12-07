@@ -1,10 +1,13 @@
-git clone --recurse-submodules git@github.com:chadthecoder/vcpkgLinuxTemplate.git
+# Run to clone with a copy of vcpkg
+git clone --recurse-submodules git@github.com:chadthecoder/vcpkgMinecraft.git
 
+# Run if bash doesnt work?
+run ./prebuild.sh, ./build.sh, and then ./run.sh
+
+# If running .sh doesnt work?
 chmod u+x prebuild.sh
 chmod u+x build.sh
 chmod u+x run.sh
-
-run ./prebuild.sh, ./build.sh, and then ./run.sh
 
 sudo ./lib/vcpkg/vcpkg install
 
