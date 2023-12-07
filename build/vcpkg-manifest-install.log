@@ -9,24 +9,24 @@ The following packages will be built and installed:
   * vcpkg-cmake:x64-linux -> 2023-05-04
   * vcpkg-cmake-config:x64-linux -> 2022-02-06#1
 Additional packages (*) will be modified to complete this operation.
-Restored 8 package(s) from /home/chadthecoder/.cache/vcpkg/archives in 87.1 ms. Use --debug to see more details.
+Restored 8 package(s) from /home/chadthecoder/.cache/vcpkg/archives in 74.6 ms. Use --debug to see more details.
 Installing 1/8 vcpkg-cmake-config:x64-linux...
-Elapsed time to handle vcpkg-cmake-config:x64-linux: 423 us
+Elapsed time to handle vcpkg-cmake-config:x64-linux: 443 us
 Installing 2/8 vcpkg-cmake:x64-linux...
-Elapsed time to handle vcpkg-cmake:x64-linux: 569 us
+Elapsed time to handle vcpkg-cmake:x64-linux: 373 us
 Installing 3/8 fmt:x64-linux...
-Elapsed time to handle fmt:x64-linux: 901 us
+Elapsed time to handle fmt:x64-linux: 843 us
 Installing 4/8 egl-registry:x64-linux...
-Elapsed time to handle egl-registry:x64-linux: 529 us
+Elapsed time to handle egl-registry:x64-linux: 523 us
 Installing 5/8 opengl-registry:x64-linux...
-Elapsed time to handle opengl-registry:x64-linux: 1.1 ms
+Elapsed time to handle opengl-registry:x64-linux: 1.45 ms
 Installing 6/8 glad:x64-linux...
-Elapsed time to handle glad:x64-linux: 617 us
+Elapsed time to handle glad:x64-linux: 852 us
 Installing 7/8 glfw3:x64-linux...
-Elapsed time to handle glfw3:x64-linux: 618 us
+Elapsed time to handle glfw3:x64-linux: 732 us
 Installing 8/8 glm:x64-linux...
-Elapsed time to handle glm:x64-linux: 10.6 ms
-Total install time: 15.5 ms
+Elapsed time to handle glm:x64-linux: 14.9 ms
+Total install time: 20.2 ms
 The package fmt provides CMake targets:
 
     find_package(fmt CONFIG REQUIRED)
