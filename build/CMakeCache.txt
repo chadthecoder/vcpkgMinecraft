@@ -292,6 +292,9 @@ glad_DIR:PATH=/home/chadthecoder/Code/vcpkgMinecraft/build/vcpkg_installed/x64-l
 //The directory containing a CMake configuration file for glfw3.
 glfw3_DIR:PATH=/home/chadthecoder/Code/vcpkgMinecraft/build/vcpkg_installed/x64-linux/share/glfw3
 
+//The directory containing a CMake configuration file for glm.
+glm_DIR:PATH=/home/chadthecoder/Code/vcpkgMinecraft/build/vcpkg_installed/x64-linux/share/glm
+
 
 ########################
 # INTERNAL cache entries

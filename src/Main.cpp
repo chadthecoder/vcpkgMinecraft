@@ -1,3 +1,7 @@
+//target_compile_features(HelloWorld PRIVATE cxx_std_17)
+
+//set_target_properties(HelloWorld PROPERTIES CXX_STANDARD 17 CXX_EXTENSIONS OFF)
+
 //------- Ignore this ----------
 #include<filesystem>
 namespace fs = std::filesystem;
@@ -6,7 +10,7 @@ namespace fs = std::filesystem;
 #include<iostream>
 #include<glad/glad.h>
 #include<GLFW/glfw3.h>
-#include<stb/stb_image.h>
+#include "../lib/stb_image.h"
 #include<glm/glm.hpp>
 #include<glm/gtc/matrix_transform.hpp>
 #include<glm/gtc/type_ptr.hpp>
@@ -49,6 +53,7 @@ GLuint indices[] =
 
 int main()
 {
+	std::cout << "Hi, program started!\n";
 	// Initialize GLFW
 	glfwInit();
 
@@ -78,10 +83,12 @@ int main()
 	// In this case the viewport goes from x = 0, y = 0, to x = 800, y = 800
 	glViewport(0, 0, width, height);
 
+	std::cout << "Opengl seems to work!\n";
 
 	// Generates Shader object using shaders default.vert and default.frag
-	Shader shaderProgram("default.vert", "default.frag");
+	Shader shaderProgram("res/shaders/default.vert", "res/shaders/default.frag");
 
+	std::cout << "Shader init done!\n";
 
 	// Generates Vertex Array Object and binds it
 	VAO VAO1;

@@ -57,27 +57,132 @@ include CMakeFiles/HelloWorld.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/HelloWorld.dir/flags.make
 
-CMakeFiles/HelloWorld.dir/src/main.cpp.o: CMakeFiles/HelloWorld.dir/flags.make
-CMakeFiles/HelloWorld.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chadthecoder/Code/vcpkgMinecraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/HelloWorld.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HelloWorld.dir/src/main.cpp.o -c /home/chadthecoder/Code/vcpkgMinecraft/src/main.cpp
+CMakeFiles/HelloWorld.dir/src/stb.cpp.o: CMakeFiles/HelloWorld.dir/flags.make
+CMakeFiles/HelloWorld.dir/src/stb.cpp.o: ../src/stb.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chadthecoder/Code/vcpkgMinecraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/HelloWorld.dir/src/stb.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HelloWorld.dir/src/stb.cpp.o -c /home/chadthecoder/Code/vcpkgMinecraft/src/stb.cpp
 
-CMakeFiles/HelloWorld.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HelloWorld.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chadthecoder/Code/vcpkgMinecraft/src/main.cpp > CMakeFiles/HelloWorld.dir/src/main.cpp.i
+CMakeFiles/HelloWorld.dir/src/stb.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HelloWorld.dir/src/stb.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chadthecoder/Code/vcpkgMinecraft/src/stb.cpp > CMakeFiles/HelloWorld.dir/src/stb.cpp.i
 
-CMakeFiles/HelloWorld.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HelloWorld.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chadthecoder/Code/vcpkgMinecraft/src/main.cpp -o CMakeFiles/HelloWorld.dir/src/main.cpp.s
+CMakeFiles/HelloWorld.dir/src/stb.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HelloWorld.dir/src/stb.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chadthecoder/Code/vcpkgMinecraft/src/stb.cpp -o CMakeFiles/HelloWorld.dir/src/stb.cpp.s
+
+CMakeFiles/HelloWorld.dir/src/VBO.cpp.o: CMakeFiles/HelloWorld.dir/flags.make
+CMakeFiles/HelloWorld.dir/src/VBO.cpp.o: ../src/VBO.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chadthecoder/Code/vcpkgMinecraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/HelloWorld.dir/src/VBO.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HelloWorld.dir/src/VBO.cpp.o -c /home/chadthecoder/Code/vcpkgMinecraft/src/VBO.cpp
+
+CMakeFiles/HelloWorld.dir/src/VBO.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HelloWorld.dir/src/VBO.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chadthecoder/Code/vcpkgMinecraft/src/VBO.cpp > CMakeFiles/HelloWorld.dir/src/VBO.cpp.i
+
+CMakeFiles/HelloWorld.dir/src/VBO.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HelloWorld.dir/src/VBO.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chadthecoder/Code/vcpkgMinecraft/src/VBO.cpp -o CMakeFiles/HelloWorld.dir/src/VBO.cpp.s
+
+CMakeFiles/HelloWorld.dir/src/VAO.cpp.o: CMakeFiles/HelloWorld.dir/flags.make
+CMakeFiles/HelloWorld.dir/src/VAO.cpp.o: ../src/VAO.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chadthecoder/Code/vcpkgMinecraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/HelloWorld.dir/src/VAO.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HelloWorld.dir/src/VAO.cpp.o -c /home/chadthecoder/Code/vcpkgMinecraft/src/VAO.cpp
+
+CMakeFiles/HelloWorld.dir/src/VAO.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HelloWorld.dir/src/VAO.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chadthecoder/Code/vcpkgMinecraft/src/VAO.cpp > CMakeFiles/HelloWorld.dir/src/VAO.cpp.i
+
+CMakeFiles/HelloWorld.dir/src/VAO.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HelloWorld.dir/src/VAO.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chadthecoder/Code/vcpkgMinecraft/src/VAO.cpp -o CMakeFiles/HelloWorld.dir/src/VAO.cpp.s
+
+CMakeFiles/HelloWorld.dir/src/shaderClass.cpp.o: CMakeFiles/HelloWorld.dir/flags.make
+CMakeFiles/HelloWorld.dir/src/shaderClass.cpp.o: ../src/shaderClass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chadthecoder/Code/vcpkgMinecraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/HelloWorld.dir/src/shaderClass.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HelloWorld.dir/src/shaderClass.cpp.o -c /home/chadthecoder/Code/vcpkgMinecraft/src/shaderClass.cpp
+
+CMakeFiles/HelloWorld.dir/src/shaderClass.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HelloWorld.dir/src/shaderClass.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chadthecoder/Code/vcpkgMinecraft/src/shaderClass.cpp > CMakeFiles/HelloWorld.dir/src/shaderClass.cpp.i
+
+CMakeFiles/HelloWorld.dir/src/shaderClass.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HelloWorld.dir/src/shaderClass.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chadthecoder/Code/vcpkgMinecraft/src/shaderClass.cpp -o CMakeFiles/HelloWorld.dir/src/shaderClass.cpp.s
+
+CMakeFiles/HelloWorld.dir/src/Texture.cpp.o: CMakeFiles/HelloWorld.dir/flags.make
+CMakeFiles/HelloWorld.dir/src/Texture.cpp.o: ../src/Texture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chadthecoder/Code/vcpkgMinecraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/HelloWorld.dir/src/Texture.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HelloWorld.dir/src/Texture.cpp.o -c /home/chadthecoder/Code/vcpkgMinecraft/src/Texture.cpp
+
+CMakeFiles/HelloWorld.dir/src/Texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HelloWorld.dir/src/Texture.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chadthecoder/Code/vcpkgMinecraft/src/Texture.cpp > CMakeFiles/HelloWorld.dir/src/Texture.cpp.i
+
+CMakeFiles/HelloWorld.dir/src/Texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HelloWorld.dir/src/Texture.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chadthecoder/Code/vcpkgMinecraft/src/Texture.cpp -o CMakeFiles/HelloWorld.dir/src/Texture.cpp.s
+
+CMakeFiles/HelloWorld.dir/src/EBO.cpp.o: CMakeFiles/HelloWorld.dir/flags.make
+CMakeFiles/HelloWorld.dir/src/EBO.cpp.o: ../src/EBO.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chadthecoder/Code/vcpkgMinecraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/HelloWorld.dir/src/EBO.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HelloWorld.dir/src/EBO.cpp.o -c /home/chadthecoder/Code/vcpkgMinecraft/src/EBO.cpp
+
+CMakeFiles/HelloWorld.dir/src/EBO.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HelloWorld.dir/src/EBO.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chadthecoder/Code/vcpkgMinecraft/src/EBO.cpp > CMakeFiles/HelloWorld.dir/src/EBO.cpp.i
+
+CMakeFiles/HelloWorld.dir/src/EBO.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HelloWorld.dir/src/EBO.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chadthecoder/Code/vcpkgMinecraft/src/EBO.cpp -o CMakeFiles/HelloWorld.dir/src/EBO.cpp.s
+
+CMakeFiles/HelloWorld.dir/src/Camera.cpp.o: CMakeFiles/HelloWorld.dir/flags.make
+CMakeFiles/HelloWorld.dir/src/Camera.cpp.o: ../src/Camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chadthecoder/Code/vcpkgMinecraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/HelloWorld.dir/src/Camera.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HelloWorld.dir/src/Camera.cpp.o -c /home/chadthecoder/Code/vcpkgMinecraft/src/Camera.cpp
+
+CMakeFiles/HelloWorld.dir/src/Camera.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HelloWorld.dir/src/Camera.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chadthecoder/Code/vcpkgMinecraft/src/Camera.cpp > CMakeFiles/HelloWorld.dir/src/Camera.cpp.i
+
+CMakeFiles/HelloWorld.dir/src/Camera.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HelloWorld.dir/src/Camera.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chadthecoder/Code/vcpkgMinecraft/src/Camera.cpp -o CMakeFiles/HelloWorld.dir/src/Camera.cpp.s
+
+CMakeFiles/HelloWorld.dir/src/Main.cpp.o: CMakeFiles/HelloWorld.dir/flags.make
+CMakeFiles/HelloWorld.dir/src/Main.cpp.o: ../src/Main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chadthecoder/Code/vcpkgMinecraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/HelloWorld.dir/src/Main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HelloWorld.dir/src/Main.cpp.o -c /home/chadthecoder/Code/vcpkgMinecraft/src/Main.cpp
+
+CMakeFiles/HelloWorld.dir/src/Main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HelloWorld.dir/src/Main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chadthecoder/Code/vcpkgMinecraft/src/Main.cpp > CMakeFiles/HelloWorld.dir/src/Main.cpp.i
+
+CMakeFiles/HelloWorld.dir/src/Main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HelloWorld.dir/src/Main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chadthecoder/Code/vcpkgMinecraft/src/Main.cpp -o CMakeFiles/HelloWorld.dir/src/Main.cpp.s
 
 # Object files for target HelloWorld
 HelloWorld_OBJECTS = \
-"CMakeFiles/HelloWorld.dir/src/main.cpp.o"
+"CMakeFiles/HelloWorld.dir/src/stb.cpp.o" \
+"CMakeFiles/HelloWorld.dir/src/VBO.cpp.o" \
+"CMakeFiles/HelloWorld.dir/src/VAO.cpp.o" \
+"CMakeFiles/HelloWorld.dir/src/shaderClass.cpp.o" \
+"CMakeFiles/HelloWorld.dir/src/Texture.cpp.o" \
+"CMakeFiles/HelloWorld.dir/src/EBO.cpp.o" \
+"CMakeFiles/HelloWorld.dir/src/Camera.cpp.o" \
+"CMakeFiles/HelloWorld.dir/src/Main.cpp.o"
 
 # External object files for target HelloWorld
 HelloWorld_EXTERNAL_OBJECTS =
 
-HelloWorld: CMakeFiles/HelloWorld.dir/src/main.cpp.o
+HelloWorld: CMakeFiles/HelloWorld.dir/src/stb.cpp.o
+HelloWorld: CMakeFiles/HelloWorld.dir/src/VBO.cpp.o
+HelloWorld: CMakeFiles/HelloWorld.dir/src/VAO.cpp.o
+HelloWorld: CMakeFiles/HelloWorld.dir/src/shaderClass.cpp.o
+HelloWorld: CMakeFiles/HelloWorld.dir/src/Texture.cpp.o
+HelloWorld: CMakeFiles/HelloWorld.dir/src/EBO.cpp.o
+HelloWorld: CMakeFiles/HelloWorld.dir/src/Camera.cpp.o
+HelloWorld: CMakeFiles/HelloWorld.dir/src/Main.cpp.o
 HelloWorld: CMakeFiles/HelloWorld.dir/build.make
 HelloWorld: vcpkg_installed/x64-linux/debug/lib/libglfw3.a
 HelloWorld: vcpkg_installed/x64-linux/debug/lib/libglad.a
@@ -86,7 +191,7 @@ HelloWorld: /usr/lib/x86_64-linux-gnu/librt.so
 HelloWorld: /usr/lib/x86_64-linux-gnu/libm.so
 HelloWorld: /usr/lib/x86_64-linux-gnu/libX11.so
 HelloWorld: CMakeFiles/HelloWorld.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chadthecoder/Code/vcpkgMinecraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable HelloWorld"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chadthecoder/Code/vcpkgMinecraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable HelloWorld"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/HelloWorld.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

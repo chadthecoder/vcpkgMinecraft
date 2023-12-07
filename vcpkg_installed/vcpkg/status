@@ -1,0 +1,69 @@
+Package: vcpkg-cmake-config
+Version: 2022-02-06
+Port-Version: 1
+Architecture: x64-linux
+Multi-Arch: same
+Abi: a512552b8bc946fc08e77feb744f44ed5f0a8ac73fe449212da78efe9e32df59
+Status: install ok installed
+
+Package: vcpkg-cmake
+Version: 2023-05-04
+Architecture: x64-linux
+Multi-Arch: same
+Abi: e21c6f24a810a4449b858b64b3fe93d4808a990c71339f7487eb415e3c8dd0d6
+Status: install ok installed
+
+Package: fmt
+Version: 10.1.1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 38ea9e3c57922f464cd76e1bd02c59ad5a614b8be151c6d08c904d034e5705ad
+Description: Formatting library for C++. It can be used as a safe alternative to printf or as a fast alternative to IOStreams.
+Status: install ok installed
+
+Package: egl-registry
+Version: 2022-09-20
+Architecture: x64-linux
+Multi-Arch: same
+Abi: d51bbfccfa80524c5777c68d7408bdd696ae511b27fefb305ad3ae328518272c
+Description: the EGL API and Extension Registry
+Status: install ok installed
+
+Package: opengl-registry
+Version: 2022-09-29
+Port-Version: 1
+Depends: egl-registry
+Architecture: x64-linux
+Multi-Arch: same
+Abi: b45458f4d95467a4dde90870f0855f0d70c86833489f62a91cabf40d966d38b8
+Description: the API and Extension registries for the OpenGL family APIs
+Status: install ok installed
+
+Package: glad
+Version: 0.1.36
+Depends: egl-registry, opengl-registry, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 384a029764a13b871dc1e2e79b4ac750e7043622722e1865a452fc0361591a14
+Description: Multi-Language Vulkan/GL/GLES/EGL/GLX/WGL Loader-Generator based on the official specs.
+Default-Features: loader
+Status: install ok installed
+
+Package: glad
+Feature: loader
+Architecture: x64-linux
+Multi-Arch: same
+Description: Generate loader logic.
+Status: install ok installed
+
+Package: glfw3
+Version: 3.3.8
+Port-Version: 3
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 1da012d9c87502e1be10ee8c3f0b1ca97d88b1990f6330f08097241952f3d0eb
+Description: GLFW is a free, Open Source, multi-platform library for OpenGL, OpenGL ES and Vulkan application development. It provides a simple, platform-independent API for creating windows, contexts and surfaces, reading input, handling events, etc.
+Status: install ok installed
+

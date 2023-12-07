@@ -26,6 +26,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "vcpkg_installed/x64-linux/share/glfw3/glfw3Targets-debug.cmake"
   "vcpkg_installed/x64-linux/share/glfw3/glfw3Targets-release.cmake"
   "vcpkg_installed/x64-linux/share/glfw3/glfw3Targets.cmake"
+  "vcpkg_installed/x64-linux/share/glm/glm-config.cmake"
   "../lib/vcpkg/scripts/buildsystems/vcpkg.cmake"
   "../vcpkg-configuration.json"
   "../vcpkg.json"

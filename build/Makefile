@@ -123,32 +123,221 @@ HelloWorld/fast:
 	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/build
 .PHONY : HelloWorld/fast
 
-src/main.o: src/main.cpp.o
+src/Camera.o: src/Camera.cpp.o
 
-.PHONY : src/main.o
+.PHONY : src/Camera.o
 
 # target to build an object file
-src/main.cpp.o:
-	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+src/Camera.cpp.o:
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/Camera.cpp.o
+.PHONY : src/Camera.cpp.o
 
-src/main.i: src/main.cpp.i
+src/Camera.i: src/Camera.cpp.i
 
-.PHONY : src/main.i
+.PHONY : src/Camera.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src/Camera.cpp.i:
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/Camera.cpp.i
+.PHONY : src/Camera.cpp.i
 
-src/main.s: src/main.cpp.s
+src/Camera.s: src/Camera.cpp.s
 
-.PHONY : src/main.s
+.PHONY : src/Camera.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/Camera.cpp.s:
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/Camera.cpp.s
+.PHONY : src/Camera.cpp.s
+
+src/EBO.o: src/EBO.cpp.o
+
+.PHONY : src/EBO.o
+
+# target to build an object file
+src/EBO.cpp.o:
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/EBO.cpp.o
+.PHONY : src/EBO.cpp.o
+
+src/EBO.i: src/EBO.cpp.i
+
+.PHONY : src/EBO.i
+
+# target to preprocess a source file
+src/EBO.cpp.i:
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/EBO.cpp.i
+.PHONY : src/EBO.cpp.i
+
+src/EBO.s: src/EBO.cpp.s
+
+.PHONY : src/EBO.s
+
+# target to generate assembly for a file
+src/EBO.cpp.s:
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/EBO.cpp.s
+.PHONY : src/EBO.cpp.s
+
+src/Main.o: src/Main.cpp.o
+
+.PHONY : src/Main.o
+
+# target to build an object file
+src/Main.cpp.o:
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/Main.cpp.o
+.PHONY : src/Main.cpp.o
+
+src/Main.i: src/Main.cpp.i
+
+.PHONY : src/Main.i
+
+# target to preprocess a source file
+src/Main.cpp.i:
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/Main.cpp.i
+.PHONY : src/Main.cpp.i
+
+src/Main.s: src/Main.cpp.s
+
+.PHONY : src/Main.s
+
+# target to generate assembly for a file
+src/Main.cpp.s:
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/Main.cpp.s
+.PHONY : src/Main.cpp.s
+
+src/Texture.o: src/Texture.cpp.o
+
+.PHONY : src/Texture.o
+
+# target to build an object file
+src/Texture.cpp.o:
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/Texture.cpp.o
+.PHONY : src/Texture.cpp.o
+
+src/Texture.i: src/Texture.cpp.i
+
+.PHONY : src/Texture.i
+
+# target to preprocess a source file
+src/Texture.cpp.i:
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/Texture.cpp.i
+.PHONY : src/Texture.cpp.i
+
+src/Texture.s: src/Texture.cpp.s
+
+.PHONY : src/Texture.s
+
+# target to generate assembly for a file
+src/Texture.cpp.s:
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/Texture.cpp.s
+.PHONY : src/Texture.cpp.s
+
+src/VAO.o: src/VAO.cpp.o
+
+.PHONY : src/VAO.o
+
+# target to build an object file
+src/VAO.cpp.o:
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/VAO.cpp.o
+.PHONY : src/VAO.cpp.o
+
+src/VAO.i: src/VAO.cpp.i
+
+.PHONY : src/VAO.i
+
+# target to preprocess a source file
+src/VAO.cpp.i:
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/VAO.cpp.i
+.PHONY : src/VAO.cpp.i
+
+src/VAO.s: src/VAO.cpp.s
+
+.PHONY : src/VAO.s
+
+# target to generate assembly for a file
+src/VAO.cpp.s:
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/VAO.cpp.s
+.PHONY : src/VAO.cpp.s
+
+src/VBO.o: src/VBO.cpp.o
+
+.PHONY : src/VBO.o
+
+# target to build an object file
+src/VBO.cpp.o:
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/VBO.cpp.o
+.PHONY : src/VBO.cpp.o
+
+src/VBO.i: src/VBO.cpp.i
+
+.PHONY : src/VBO.i
+
+# target to preprocess a source file
+src/VBO.cpp.i:
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/VBO.cpp.i
+.PHONY : src/VBO.cpp.i
+
+src/VBO.s: src/VBO.cpp.s
+
+.PHONY : src/VBO.s
+
+# target to generate assembly for a file
+src/VBO.cpp.s:
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/VBO.cpp.s
+.PHONY : src/VBO.cpp.s
+
+src/shaderClass.o: src/shaderClass.cpp.o
+
+.PHONY : src/shaderClass.o
+
+# target to build an object file
+src/shaderClass.cpp.o:
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/shaderClass.cpp.o
+.PHONY : src/shaderClass.cpp.o
+
+src/shaderClass.i: src/shaderClass.cpp.i
+
+.PHONY : src/shaderClass.i
+
+# target to preprocess a source file
+src/shaderClass.cpp.i:
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/shaderClass.cpp.i
+.PHONY : src/shaderClass.cpp.i
+
+src/shaderClass.s: src/shaderClass.cpp.s
+
+.PHONY : src/shaderClass.s
+
+# target to generate assembly for a file
+src/shaderClass.cpp.s:
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/shaderClass.cpp.s
+.PHONY : src/shaderClass.cpp.s
+
+src/stb.o: src/stb.cpp.o
+
+.PHONY : src/stb.o
+
+# target to build an object file
+src/stb.cpp.o:
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/stb.cpp.o
+.PHONY : src/stb.cpp.o
+
+src/stb.i: src/stb.cpp.i
+
+.PHONY : src/stb.i
+
+# target to preprocess a source file
+src/stb.cpp.i:
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/stb.cpp.i
+.PHONY : src/stb.cpp.i
+
+src/stb.s: src/stb.cpp.s
+
+.PHONY : src/stb.s
+
+# target to generate assembly for a file
+src/stb.cpp.s:
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/stb.cpp.s
+.PHONY : src/stb.cpp.s
 
 # Help Target
 help:
@@ -159,9 +348,30 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... HelloWorld"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... src/Camera.o"
+	@echo "... src/Camera.i"
+	@echo "... src/Camera.s"
+	@echo "... src/EBO.o"
+	@echo "... src/EBO.i"
+	@echo "... src/EBO.s"
+	@echo "... src/Main.o"
+	@echo "... src/Main.i"
+	@echo "... src/Main.s"
+	@echo "... src/Texture.o"
+	@echo "... src/Texture.i"
+	@echo "... src/Texture.s"
+	@echo "... src/VAO.o"
+	@echo "... src/VAO.i"
+	@echo "... src/VAO.s"
+	@echo "... src/VBO.o"
+	@echo "... src/VBO.i"
+	@echo "... src/VBO.s"
+	@echo "... src/shaderClass.o"
+	@echo "... src/shaderClass.i"
+	@echo "... src/shaderClass.s"
+	@echo "... src/stb.o"
+	@echo "... src/stb.i"
+	@echo "... src/stb.s"
 .PHONY : help
 
 
