@@ -96,18 +96,18 @@ CMakeFiles/HelloWorld.dir/src/VAO.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HelloWorld.dir/src/VAO.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chadthecoder/Code/vcpkgMinecraft/src/VAO.cpp -o CMakeFiles/HelloWorld.dir/src/VAO.cpp.s
 
-CMakeFiles/HelloWorld.dir/src/shaderClass.cpp.o: CMakeFiles/HelloWorld.dir/flags.make
-CMakeFiles/HelloWorld.dir/src/shaderClass.cpp.o: ../src/shaderClass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chadthecoder/Code/vcpkgMinecraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/HelloWorld.dir/src/shaderClass.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HelloWorld.dir/src/shaderClass.cpp.o -c /home/chadthecoder/Code/vcpkgMinecraft/src/shaderClass.cpp
+CMakeFiles/HelloWorld.dir/src/Shader.cpp.o: CMakeFiles/HelloWorld.dir/flags.make
+CMakeFiles/HelloWorld.dir/src/Shader.cpp.o: ../src/Shader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chadthecoder/Code/vcpkgMinecraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/HelloWorld.dir/src/Shader.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HelloWorld.dir/src/Shader.cpp.o -c /home/chadthecoder/Code/vcpkgMinecraft/src/Shader.cpp
 
-CMakeFiles/HelloWorld.dir/src/shaderClass.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HelloWorld.dir/src/shaderClass.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chadthecoder/Code/vcpkgMinecraft/src/shaderClass.cpp > CMakeFiles/HelloWorld.dir/src/shaderClass.cpp.i
+CMakeFiles/HelloWorld.dir/src/Shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HelloWorld.dir/src/Shader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chadthecoder/Code/vcpkgMinecraft/src/Shader.cpp > CMakeFiles/HelloWorld.dir/src/Shader.cpp.i
 
-CMakeFiles/HelloWorld.dir/src/shaderClass.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HelloWorld.dir/src/shaderClass.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chadthecoder/Code/vcpkgMinecraft/src/shaderClass.cpp -o CMakeFiles/HelloWorld.dir/src/shaderClass.cpp.s
+CMakeFiles/HelloWorld.dir/src/Shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HelloWorld.dir/src/Shader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chadthecoder/Code/vcpkgMinecraft/src/Shader.cpp -o CMakeFiles/HelloWorld.dir/src/Shader.cpp.s
 
 CMakeFiles/HelloWorld.dir/src/Texture.cpp.o: CMakeFiles/HelloWorld.dir/flags.make
 CMakeFiles/HelloWorld.dir/src/Texture.cpp.o: ../src/Texture.cpp
@@ -166,7 +166,7 @@ HelloWorld_OBJECTS = \
 "CMakeFiles/HelloWorld.dir/src/stb.cpp.o" \
 "CMakeFiles/HelloWorld.dir/src/VBO.cpp.o" \
 "CMakeFiles/HelloWorld.dir/src/VAO.cpp.o" \
-"CMakeFiles/HelloWorld.dir/src/shaderClass.cpp.o" \
+"CMakeFiles/HelloWorld.dir/src/Shader.cpp.o" \
 "CMakeFiles/HelloWorld.dir/src/Texture.cpp.o" \
 "CMakeFiles/HelloWorld.dir/src/EBO.cpp.o" \
 "CMakeFiles/HelloWorld.dir/src/Camera.cpp.o" \
@@ -178,7 +178,7 @@ HelloWorld_EXTERNAL_OBJECTS =
 HelloWorld: CMakeFiles/HelloWorld.dir/src/stb.cpp.o
 HelloWorld: CMakeFiles/HelloWorld.dir/src/VBO.cpp.o
 HelloWorld: CMakeFiles/HelloWorld.dir/src/VAO.cpp.o
-HelloWorld: CMakeFiles/HelloWorld.dir/src/shaderClass.cpp.o
+HelloWorld: CMakeFiles/HelloWorld.dir/src/Shader.cpp.o
 HelloWorld: CMakeFiles/HelloWorld.dir/src/Texture.cpp.o
 HelloWorld: CMakeFiles/HelloWorld.dir/src/EBO.cpp.o
 HelloWorld: CMakeFiles/HelloWorld.dir/src/Camera.cpp.o

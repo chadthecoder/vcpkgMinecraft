@@ -7,10 +7,10 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/chadthecoder/Code/vcpkgMinecraft/src/Camera.cpp" "/home/chadthecoder/Code/vcpkgMinecraft/build/CMakeFiles/HelloWorld.dir/src/Camera.cpp.o"
   "/home/chadthecoder/Code/vcpkgMinecraft/src/EBO.cpp" "/home/chadthecoder/Code/vcpkgMinecraft/build/CMakeFiles/HelloWorld.dir/src/EBO.cpp.o"
   "/home/chadthecoder/Code/vcpkgMinecraft/src/Main.cpp" "/home/chadthecoder/Code/vcpkgMinecraft/build/CMakeFiles/HelloWorld.dir/src/Main.cpp.o"
+  "/home/chadthecoder/Code/vcpkgMinecraft/src/Shader.cpp" "/home/chadthecoder/Code/vcpkgMinecraft/build/CMakeFiles/HelloWorld.dir/src/Shader.cpp.o"
   "/home/chadthecoder/Code/vcpkgMinecraft/src/Texture.cpp" "/home/chadthecoder/Code/vcpkgMinecraft/build/CMakeFiles/HelloWorld.dir/src/Texture.cpp.o"
   "/home/chadthecoder/Code/vcpkgMinecraft/src/VAO.cpp" "/home/chadthecoder/Code/vcpkgMinecraft/build/CMakeFiles/HelloWorld.dir/src/VAO.cpp.o"
   "/home/chadthecoder/Code/vcpkgMinecraft/src/VBO.cpp" "/home/chadthecoder/Code/vcpkgMinecraft/build/CMakeFiles/HelloWorld.dir/src/VBO.cpp.o"
-  "/home/chadthecoder/Code/vcpkgMinecraft/src/shaderClass.cpp" "/home/chadthecoder/Code/vcpkgMinecraft/build/CMakeFiles/HelloWorld.dir/src/shaderClass.cpp.o"
   "/home/chadthecoder/Code/vcpkgMinecraft/src/stb.cpp" "/home/chadthecoder/Code/vcpkgMinecraft/build/CMakeFiles/HelloWorld.dir/src/stb.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

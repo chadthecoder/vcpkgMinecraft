@@ -1,6 +1,9 @@
 # Run to clone with a copy of vcpkg
 git clone --recurse-submodules git@github.com:chadthecoder/vcpkgMinecraft.git
 
+# If already cloned and need to get vcpkg, then run
+git submodule update --init --recursive
+
 # Run if bash doesnt work?
 run ./prebuild.sh, ./build.sh, and then ./run.sh
 
@@ -13,7 +16,7 @@ sudo ./lib/vcpkg/vcpkg install
 
 vcpkg install doesnt work?
 
-add .sh file that takes in arguement and builds everything
+add .sh file that takes in arguement and builds everything?
 
 # ./lib/vcpkg/vcpkg to use vcpkg
 Example:

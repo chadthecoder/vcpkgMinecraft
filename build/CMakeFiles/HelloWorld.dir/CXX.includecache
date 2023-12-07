@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-../include/Camera.h
+../include/Camera.hpp
 glad/glad.h
 -
 GLFW/glfw3.h
@@ -21,32 +21,14 @@ glm/gtx/rotate_vector.hpp
 -
 glm/gtx/vector_angle.hpp
 -
-shaderClass.h
-../include/shaderClass.h
+Shader.hpp
+../include/Shader.hpp
 
-../include/EBO.h
+../include/EBO.hpp
 glad/glad.h
 -
 
-../include/Texture.h
-glad/glad.h
--
-../lib/stb_image.h
-../lib/stb_image.h
-shaderClass.h
-../include/shaderClass.h
-
-../include/VAO.h
-glad/glad.h
--
-VBO.h
-../include/VBO.h
-
-../include/VBO.h
-glad/glad.h
--
-
-../include/shaderClass.h
+../include/Shader.hpp
 glad/glad.h
 -
 string
@@ -58,6 +40,24 @@ sstream
 iostream
 -
 cerrno
+-
+
+../include/Texture.hpp
+glad/glad.h
+-
+../lib/stb_image.h
+../lib/stb_image.h
+Shader.hpp
+../include/Shader.hpp
+
+../include/VAO.hpp
+glad/glad.h
+-
+VBO.hpp
+../include/VBO.hpp
+
+../include/VBO.hpp
+glad/glad.h
 -
 
 ../lib/stb_image.h
@@ -125,12 +125,12 @@ arm_neon.h
 -
 
 /home/chadthecoder/Code/vcpkgMinecraft/src/Camera.cpp
-Camera.h
-/home/chadthecoder/Code/vcpkgMinecraft/src/Camera.h
+Camera.hpp
+/home/chadthecoder/Code/vcpkgMinecraft/src/Camera.hpp
 
 /home/chadthecoder/Code/vcpkgMinecraft/src/EBO.cpp
-EBO.h
-/home/chadthecoder/Code/vcpkgMinecraft/src/EBO.h
+EBO.hpp
+/home/chadthecoder/Code/vcpkgMinecraft/src/EBO.hpp
 
 /home/chadthecoder/Code/vcpkgMinecraft/src/Main.cpp
 filesystem
@@ -149,34 +149,34 @@ glm/gtc/matrix_transform.hpp
 -
 glm/gtc/type_ptr.hpp
 -
-Texture.h
-/home/chadthecoder/Code/vcpkgMinecraft/src/Texture.h
-shaderClass.h
-/home/chadthecoder/Code/vcpkgMinecraft/src/shaderClass.h
-VAO.h
-/home/chadthecoder/Code/vcpkgMinecraft/src/VAO.h
-VBO.h
-/home/chadthecoder/Code/vcpkgMinecraft/src/VBO.h
-EBO.h
-/home/chadthecoder/Code/vcpkgMinecraft/src/EBO.h
-Camera.h
-/home/chadthecoder/Code/vcpkgMinecraft/src/Camera.h
+Texture.hpp
+/home/chadthecoder/Code/vcpkgMinecraft/src/Texture.hpp
+Shader.hpp
+/home/chadthecoder/Code/vcpkgMinecraft/src/Shader.hpp
+VAO.hpp
+/home/chadthecoder/Code/vcpkgMinecraft/src/VAO.hpp
+VBO.hpp
+/home/chadthecoder/Code/vcpkgMinecraft/src/VBO.hpp
+EBO.hpp
+/home/chadthecoder/Code/vcpkgMinecraft/src/EBO.hpp
+Camera.hpp
+/home/chadthecoder/Code/vcpkgMinecraft/src/Camera.hpp
+
+/home/chadthecoder/Code/vcpkgMinecraft/src/Shader.cpp
+Shader.hpp
+/home/chadthecoder/Code/vcpkgMinecraft/src/Shader.hpp
 
 /home/chadthecoder/Code/vcpkgMinecraft/src/Texture.cpp
-Texture.h
-/home/chadthecoder/Code/vcpkgMinecraft/src/Texture.h
+Texture.hpp
+/home/chadthecoder/Code/vcpkgMinecraft/src/Texture.hpp
 
 /home/chadthecoder/Code/vcpkgMinecraft/src/VAO.cpp
-VAO.h
-/home/chadthecoder/Code/vcpkgMinecraft/src/VAO.h
+VAO.hpp
+/home/chadthecoder/Code/vcpkgMinecraft/src/VAO.hpp
 
 /home/chadthecoder/Code/vcpkgMinecraft/src/VBO.cpp
-VBO.h
-/home/chadthecoder/Code/vcpkgMinecraft/src/VBO.h
-
-/home/chadthecoder/Code/vcpkgMinecraft/src/shaderClass.cpp
-shaderClass.h
-/home/chadthecoder/Code/vcpkgMinecraft/src/shaderClass.h
+VBO.hpp
+/home/chadthecoder/Code/vcpkgMinecraft/src/VBO.hpp
 
 /home/chadthecoder/Code/vcpkgMinecraft/src/stb.cpp
 ../lib/stb_image.h

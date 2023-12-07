@@ -204,6 +204,33 @@ src/Main.cpp.s:
 	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/Main.cpp.s
 .PHONY : src/Main.cpp.s
 
+src/Shader.o: src/Shader.cpp.o
+
+.PHONY : src/Shader.o
+
+# target to build an object file
+src/Shader.cpp.o:
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/Shader.cpp.o
+.PHONY : src/Shader.cpp.o
+
+src/Shader.i: src/Shader.cpp.i
+
+.PHONY : src/Shader.i
+
+# target to preprocess a source file
+src/Shader.cpp.i:
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/Shader.cpp.i
+.PHONY : src/Shader.cpp.i
+
+src/Shader.s: src/Shader.cpp.s
+
+.PHONY : src/Shader.s
+
+# target to generate assembly for a file
+src/Shader.cpp.s:
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/Shader.cpp.s
+.PHONY : src/Shader.cpp.s
+
 src/Texture.o: src/Texture.cpp.o
 
 .PHONY : src/Texture.o
@@ -285,33 +312,6 @@ src/VBO.cpp.s:
 	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/VBO.cpp.s
 .PHONY : src/VBO.cpp.s
 
-src/shaderClass.o: src/shaderClass.cpp.o
-
-.PHONY : src/shaderClass.o
-
-# target to build an object file
-src/shaderClass.cpp.o:
-	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/shaderClass.cpp.o
-.PHONY : src/shaderClass.cpp.o
-
-src/shaderClass.i: src/shaderClass.cpp.i
-
-.PHONY : src/shaderClass.i
-
-# target to preprocess a source file
-src/shaderClass.cpp.i:
-	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/shaderClass.cpp.i
-.PHONY : src/shaderClass.cpp.i
-
-src/shaderClass.s: src/shaderClass.cpp.s
-
-.PHONY : src/shaderClass.s
-
-# target to generate assembly for a file
-src/shaderClass.cpp.s:
-	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/shaderClass.cpp.s
-.PHONY : src/shaderClass.cpp.s
-
 src/stb.o: src/stb.cpp.o
 
 .PHONY : src/stb.o
@@ -357,6 +357,9 @@ help:
 	@echo "... src/Main.o"
 	@echo "... src/Main.i"
 	@echo "... src/Main.s"
+	@echo "... src/Shader.o"
+	@echo "... src/Shader.i"
+	@echo "... src/Shader.s"
 	@echo "... src/Texture.o"
 	@echo "... src/Texture.i"
 	@echo "... src/Texture.s"
@@ -366,9 +369,6 @@ help:
 	@echo "... src/VBO.o"
 	@echo "... src/VBO.i"
 	@echo "... src/VBO.s"
-	@echo "... src/shaderClass.o"
-	@echo "... src/shaderClass.i"
-	@echo "... src/shaderClass.s"
 	@echo "... src/stb.o"
 	@echo "... src/stb.i"
 	@echo "... src/stb.s"

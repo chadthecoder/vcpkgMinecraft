@@ -3,26 +3,24 @@
 //set_target_properties(HelloWorld PROPERTIES CXX_STANDARD 17 CXX_EXTENSIONS OFF)
 
 //------- Ignore this ----------
-#include<filesystem>
+#include <filesystem>
 namespace fs = std::filesystem;
 //------------------------------
 
-#include<iostream>
-#include<glad/glad.h>
-#include<GLFW/glfw3.h>
+#include <iostream>
+#include <glad/glad.h>
+#include <GLFW/glfw3.h>
 #include "../lib/stb_image.h"
-#include<glm/glm.hpp>
-#include<glm/gtc/matrix_transform.hpp>
-#include<glm/gtc/type_ptr.hpp>
+#include <glm/glm.hpp>
+#include <glm/gtc/matrix_transform.hpp>
+#include <glm/gtc/type_ptr.hpp>
 
-#include"Texture.h"
-#include"shaderClass.h"
-#include"VAO.h"
-#include"VBO.h"
-#include"EBO.h"
-#include"Camera.h"
-
-
+#include "Texture.hpp"
+#include "Shader.hpp"
+#include "VAO.hpp"
+#include "VBO.hpp"
+#include "EBO.hpp"
+#include "Camera.hpp"
 
 const unsigned int width = 800;
 const unsigned int height = 800;
@@ -65,8 +63,8 @@ int main()
 	// So that means we only have the modern functions
 	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
-	// Create a GLFWwindow object of 800 by 800 pixels, naming it "YoutubeOpenGL"
-	GLFWwindow* window = glfwCreateWindow(width, height, "YoutubeOpenGL", NULL, NULL);
+	// Create a GLFWwindow object of 800 by 800 pixels
+	GLFWwindow* window = glfwCreateWindow(width, height, "VCPKG_OPENGL_TEST", NULL, NULL);
 	// Error check if the window fails to create
 	if (window == NULL)
 	{
@@ -116,8 +114,11 @@ int main()
 	* folder and then give a relative path from this folder to whatever resource you want to get to.
 	* Also note that this requires C++17, so go to Project Properties, C/C++, Language, and select C++17
 	*/
-	std::string parentDir = (fs::current_path().fs::path::parent_path()).string();
-	std::string texPath = "/Resources/YoutubeOpenGL 7 - Going 3D/";
+	//std::string parentDir = (fs::current_path().fs::path::parent_path()).string();
+	std::string parentDir = fs::current_path().string();
+	std::string texPath = "/res/img/";
+
+	std::cout << parentDir + texPath << "\n";
 
 	// Texture
 	Texture brickTex((parentDir + texPath + "brick.png").c_str(), GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE);
