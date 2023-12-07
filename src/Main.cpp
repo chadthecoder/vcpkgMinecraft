@@ -121,7 +121,7 @@ int main()
 	std::cout << parentDir + texPath << "\n";
 
 	// Texture
-	Texture brickTex((parentDir + texPath + "brick.png").c_str(), GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE);
+	Texture brickTex((parentDir + texPath + "cpp.png").c_str(), GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE);
 	brickTex.texUnit(shaderProgram, "tex0", 0);
 
 	// Original code from the tutorial
