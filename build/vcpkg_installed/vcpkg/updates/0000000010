@@ -1,9 +1,0 @@
-Package: glad
-Version: 0.1.36
-Depends: egl-registry, opengl-registry, vcpkg-cmake, vcpkg-cmake-config
-Architecture: x64-linux
-Multi-Arch: same
-Abi: 384a029764a13b871dc1e2e79b4ac750e7043622722e1865a452fc0361591a14
-Description: Multi-Language Vulkan/GL/GLES/EGL/GLX/WGL Loader-Generator based on the official specs.
-Default-Features: loader
-Status: install ok half-installed

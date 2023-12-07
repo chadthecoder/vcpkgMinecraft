@@ -1,3 +1,0 @@
-/home/chadthecoder/Code/vcpkgMinecraft/build/CMakeFiles/edit_cache.dir
-/home/chadthecoder/Code/vcpkgMinecraft/build/CMakeFiles/rebuild_cache.dir
-/home/chadthecoder/Code/vcpkgMinecraft/build/CMakeFiles/HelloWorld.dir
